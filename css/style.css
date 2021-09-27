@@ -75,86 +75,45 @@ h6 {
 }
 /*--------------------*/
 
-.list {
-  margin-bottom: 20px;
-  margin-left: 50px;
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
 }
 
-.list:hover{
+
+.block__row {
+  border: 10px solid #1f91b4;
+  display: flex;
+  
+  /* min-height: 100vh; */
+}
+
+/* @media screen and (max-width: 650px) {
+  .block__row{
+    flex-direction: column;
+  }
+} */
+
+.block__colums {
+  font-size: 45px;
+  text-align: center;
+  padding: 25px;
+  }
+
+
+.item__1 {
+  background-color: rgb(0, 255, 106);
   
 }
-
-.list li {
-  font-size: 30px;
-  line-height: 50px;
-  background: url(/img/jak.jpg) left no-repeat;
-  padding-left: 40px;
-}
-
-.list li:first-child{
-  text-decoration: line-through;
-}
-
-.list li:last-child{
-  text-transform: uppercase;
-}
-
-.list li:nth-child(2){
-  font-weight: 700;
-}
-
-.list li:nth-child(3){
-  font-style: italic;
-}
-
-/*.list li:nth-child(odd){
-  font-weight: 700;
-}*/
-
-.list-2 {
-  margin-bottom: 50px;
-  margin-left: 50px;
-}
-
-.list-2 li {
-  font-size: 30px;
-  line-height: 40px;
-  background: url(/img/jak.jpg) left no-repeat;
-  padding-left: 40px;
-}
-
-.list-2 li:nth-child(2):hover{
-  color: brown;
-}
-
-button{
-  margin-left: 100px;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  border-radius: 10px;
-  padding: 10px 20px 10px 20px;
-  background-color: #80b7b3;
-  color: aliceblue;
-}
-
-button:hover{
-  background-color: #3a5856;
-}
-
-button:active{
-  background-color: #818181;
+.item__2 {
+  background-color: rgb(47, 0, 255);
   
 }
-
-.zoom{
-  margin-top: 50px;
-  margin-left: 100px;
-  border: 1px solid rgb(148, 147, 147);
-  padding: 8px;
+.item__3 {
+  background-color: rgb(0, 255, 255);
+  
 }
-
-.zoom:focus{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.item__4 {
+  background-color: rgb(255, 0, 85);
 }
